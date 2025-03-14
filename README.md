@@ -46,7 +46,6 @@ Standardization using StandardScaler was applied to improve model performance.
 - Volatile acidity and density are inversely related to wine quality.
 - Random Forest outperforms other models with 69.9% accuracy.
 
-
 ##  Visual Analysis
 - **Correlation Heatmap**
 
@@ -55,5 +54,10 @@ Standardization using StandardScaler was applied to improve model performance.
 - **Boxplots of Key Features**
 
 ## Conclusion
+- Random Forest is the best performer (Highest accuracy: 69.9%)
+- SGD struggles with lower accuracy and unstable predictions.
+- SVC performs better than SGD but is still behind Random Forest.
+
+  
 Random Forest emerged as the best-performing model, but further improvements can be achieved through feature selection and advanced ensemble techniques.
 

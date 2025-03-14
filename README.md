@@ -25,19 +25,19 @@ Standardization using StandardScaler was applied to improve model performance.
 
 ## Model Performance
 - **Model: 	  Random Forest**
-- Accuracy	🟢 69.9%	
+- Accuracy	 69.9%	
 - Strengths  	Best overall performance, effective on common classes
 - Weaknesses Struggles with rare classes (Quality 3, 4, 8)
 
 
 - **Model	:  SGD Classifier**			
-- Accuracy	🟠 59.7%
+- Accuracy	 59.7%
 - Strengths  Performs well on Quality 5
 - Weaknesses Overfitting on specific cases (e.g., Quality 7)
 
 
 - **Model	:  Support Vector Classifier (SVC)**		
-- Accuracy	🟡 65.6%	
+- Accuracy	 65.6%	
 - Strengths  Balanced performance 
 - Weaknesses  Struggles with extreme quality levels
 
